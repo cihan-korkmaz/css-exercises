@@ -8,10 +8,28 @@ img {
 }
 
 .title {
+  display: flex;
   font-size: 36px;
   font-weight: 900;
+  justify-content: center;
+  margin-bottom: 32px;
 }
 
+/*SOLUTION*/
+.plants {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+.one, .two, .three, .four {
+  justify-content: center;
+  max-width: 200px;
+}
+body {
+  text-align: center;
+}
+
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
